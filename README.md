@@ -1,4 +1,3 @@
-team 010-13, Gresham Basic (basic009) and Jace Shores (shore082)
 ****************************
 General Overview:
 
@@ -15,8 +14,6 @@ so after connecting to localhost:8081 the simulation will automatically load and
 
 Docker: After pulling the docker image, user must run `docker run --rm -it -p 8081:8081 greshbasic/final-project` As with git, user will then need to connect to localhost:8081
 and the simulation will automatically load and start running from there.
-
-IMPORTANT NOTE: This container is not functioning correctly due to issues with npm and vite. I have done everything I can to fix the issues, but as someone with no prior experience with either and with these being outside the scope of the course, I have found no solution. Vite is missing from the container, but upon installing it everything freezes.
 ****************************
 Detailed Overview:
 
@@ -31,7 +28,7 @@ and drop off the package.
 Extension Overview:
 
 New Feature
-- The team elected to incoporate 'porch pirates' as the new feature.
+- Elected to incoporate 'porch pirates' as the new feature.
 
 What does it do?
 -  As mentioned in the overviews, this feature simulations porch pirates, entities with the intent of
@@ -51,30 +48,10 @@ Instructions to use this new feature. if the new feature is not user interactabl
 - The new feature automatically occurs whenever a package is scheduled for delivery. However, if the user wants the pirate to be more likely to win said user should
 place the drop off location as near to the pirate as possible.
 ****************************
-Sprint retrospective:
-What worked well?
-- the sprint made it so work was done within a specific time frame and was communicated. This way members of the group were aware of what the other member was doing
-at all times and where they were with their task.
-
-What could be improved:
-- Splitting the tasks into smaller sub-tasks would have been an improvement as it would have provided further insight as to what progress was being made and where
-
-How will it be improved:
-- In the future I believe, again, splitting tasks into smaller subtasks would provide more clarity. Knowing that a team member completed task Xa, task Xb, but not task Xc
-provides much more insight than the alternative of it saying that the team member hasn't completed task X.
-****************************
 UML Diagram:
 <object data="https://github.umn.edu/umn-csci-3081-s24/team-010-13-finalproject/blob/dev_branch/PDFs/3081WPorchPirateUML.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="https://github.umn.edu/umn-csci-3081-s24/team-010-13-finalproject/blob/dev_branch/PDFs/3081WPorchPirateUML.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.umn.edu/umn-csci-3081-s24/team-010-13-finalproject/blob/dev_branch/PDFs/3081WPorchPirateUML.pdf">Download PDF</a>.</p>
     </embed>
 </object>
-
-
-****************************
-Links
-
-YouTube Presentation: https://youtu.be/324obb7tbos
-
-DockerHub: https://hub.docker.com/repository/docker/greshbasic/final-project/general
 ****************************
