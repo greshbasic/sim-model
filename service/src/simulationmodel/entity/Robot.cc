@@ -29,10 +29,6 @@ Robot::Robot(const JsonObject& obj) : IEntity(obj) {
 }
 
 void Robot::update(double dt) {
-    // elsewhere set it so robot spawns at a random location
-    // then once it gets a notification about its package being
-    // delivered, it will move to the package's location
-
     if (package && canPickUpPackage) {
         Vector3 packagePos = package->getPosition();
         double to_pack = position.dist(packagePos);
