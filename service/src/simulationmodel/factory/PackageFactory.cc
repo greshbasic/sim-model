@@ -10,6 +10,7 @@ IEntity* PackageFactory::createEntity(const JsonObject& entity) {
     std::cout << "Package Created" << std::endl;
     Package* p = new Package(entity);
     auto range = rand() % 6;  // more colors!!!
+    
     for (int i = 0; i < range; i++) {
       switch (rand() % 3) {
         case 0:
